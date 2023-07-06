@@ -10,6 +10,7 @@
   "author": "Michael Arnaldi",
   "license": "MIT",
   "dependencies": {
+    "@effect/data": "^0.12.10",
     "@effect/io": "^0.30.0"
   },
   "devDependencies": {

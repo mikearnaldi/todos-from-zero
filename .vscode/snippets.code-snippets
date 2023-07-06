@@ -1,0 +1,16 @@
+{
+    "Gen": {
+      "prefix": "gg",
+      "body": [
+        "function* ($) {",
+        "  $0",
+        "}"
+      ],
+      "description": "Begins an gen syntax block"
+    },
+    "Yield": {
+      "prefix": "yy",
+      "body": ["yield* $($0)"],
+      "description": "Yields a value from a generator"
+    }
+  }
