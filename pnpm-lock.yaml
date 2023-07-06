@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@effect/io':
+    specifier: ^0.30.0
+    version: 0.30.0
+
+devDependencies:
+  typescript:
+    specifier: ^5.1.6
+    version: 5.1.6
+
+packages:
+
+  /@effect/data@0.12.10:
+    resolution: {integrity: sha512-zIz/DgumH2LgGdr1Wc9ChET5JSG0k/G5kDc8rn4a6yIJ0v2d5rfnbRWIJO2fWmdFvc+128JyaBvYguIyz9JaAQ==}
+    dev: false
+
+  /@effect/io@0.30.0:
+    resolution: {integrity: sha512-xYfKS+eJU1bfdgB4dYNs5LmrImTJHNC4oXCPXHuzoGN7KzZBCagC4quWwTOLq7igBHp1OUZyNzonM/kBnUH26Q==}
+    dependencies:
+      '@effect/data': 0.12.10
+    dev: false
+
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
